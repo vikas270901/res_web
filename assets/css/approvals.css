@@ -1,0 +1,144 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.logo1{
+	height: 86px;
+	width: 80px;
+	padding-left: 90px;
+}
+.logo2{
+	height: 80px;
+	width: 800px;
+}
+.logo3{
+	height: 45px;
+	width: 45px;
+	padding-bottom: 13px;
+}
+.logo4{
+	height: 45px;
+	width: 45px;
+	padding-bottom: 13px;
+	padding-left: 20px;
+}
+.button{
+	list-style: none;
+	margin: 0;
+	background: #191970;
+	height: 40px;
+	width: 1259px;
+	padding-top: 0px;
+	padding-left: 90px;
+}
+.button > li {
+	text-align: center;
+	float: left;
+	background-color: #191970;
+	color: white;
+	border: white;
+	height: 28px;
+	width: 85px;
+	margin-top: 12px;
+	padding-right: 12px;
+	padding-left: 12px;
+	font-size: 16px;
+}
+.button > li > a{
+	color: white;
+	text-decoration: none;
+}
+.sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+	z-index: +1;
+	background: white;
+}
+.button > li > ul{display: none;}
+.button > li:hover > ul{
+	position: sticky;
+	z-index: +1;
+	text-align: left;
+	margin: 10px;
+	display: block;
+	list-style-position: inside;
+	color: black;
+	float: left;
+	height: 230px;
+	width: 400px;
+	padding-top: 30px;
+	background-color: white;
+}
+.button > li:hover > ul > img{
+	list-style: none;
+	padding: 10px;
+	height: 150px;
+	width: 100px;
+	float: left;
+}
+.button > li:hover > ul > li{
+	padding: 10px;
+}
+.imag > img{
+	height: 500px;
+	width: 1349px;
+}
+.about{
+	position: absolute;
+	margin: 20px;
+	height: auto;
+	width: 300px;
+ 
+}
+.about > ul >li{
+	padding: 5px;
+	list-style: none;
+	border-bottom: 0.2px solid grey; 
+}
+.certi{
+	list-style: none;
+	padding: 10px;
+	margin-top:20px; 
+	margin-left: 400px;	
+	float: left;
+}
+.certi > li{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: blue;
+}
+table{
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+	text-align: center;
+}
+hr{
+	background: #2C2377;
+	height: 3px;
+}
+footer{
+	height: 200px;
+	width: 1348;
+	padding: 5px;
+	margin-left: 150px;
+}
+.footer{
+	background-color: #DCDCDC;
+}
+footer > ul {
+	margin: 10px;
+	list-style: circle;
+	list-style-position: inside;
+	float: left;
+	height: auto;
+	width: 200px;
+}
+footer > ul > li:first-of-type {
+	list-style: none;
+	color: blue;
+	text-align: center;
+	border-bottom: 0.2px solid black;
+}
